@@ -1,6 +1,11 @@
 #!/bin/bash
 
-(echo ''; echo "$@" | figlet -f banner | sed 's/#/(mooning)/g' | sed 's/ /(ninja)/g') | xclip
+# theme proposals:
+# 1) envy / puke (by max)
+# 2) pizza / bandit (by armin)
+# 3) puke / mooning (by max)
+
+(echo ''; echo "$@" | figlet -f banner | sed 's/#/(pizza)/g' | sed 's/ /(tumbleweed)/g') | xclip
 echo "$@ skype banner copied to clipboard"
 
 
